@@ -2,7 +2,7 @@ import pygame, sys, os, random, math
 from pygame.locals import *
 
 # sounds
-pygame.mixer.pre_init()
+pygame.mixer.init()
 pygame.init()              
 
 # init pygame 
